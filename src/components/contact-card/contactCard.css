@@ -1,0 +1,44 @@
+.contact-card {
+    width: auto;
+    height: 50px;
+    font-weight: 500;
+    padding: 0 32px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+
+.contact-label {
+    width: 5%;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+    border: 1px solid #343539;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contact-value {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 0;
+    white-space: pre;
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-card {
+        width: 100%;
+    }
+}

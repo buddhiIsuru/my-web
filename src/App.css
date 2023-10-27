@@ -1,0 +1,38 @@
+.panel:nth-of-type(even) {
+  color: white;
+  background: #343539;
+}
+.panel:nth-of-type(odd) {
+  color: black;
+  background: linear-gradient(to right, #b9c2c9, #d1d1d1);
+}
+
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+
+
+.side-in{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #343539;
+  transform-origin: bottom;
+  z-index: 10001;
+}
+.side-out{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #343539;
+  transform-origin: top;
+  z-index: 10001;
+}

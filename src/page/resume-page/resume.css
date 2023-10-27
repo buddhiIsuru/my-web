@@ -1,0 +1,100 @@
+.resume-content {
+    display: flex;
+}
+
+.left-section {
+    width: 30%;
+    padding: 2%;
+}
+
+.right-section {
+    width: 40%;
+    padding: 2%;
+}
+
+.middle-section {
+    width: 30%;
+    padding: 2%;
+}
+
+.scroll-section {
+    height: 70%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #343539;
+        border-radius: 50px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #343539;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 50px;
+        background: white;
+    }
+}
+
+.edu-description-section {
+    margin-bottom: 20px;
+}
+
+.edu-description-section>p {
+    margin-bottom: 0;
+}
+
+.uni-duration {
+    font-size: 14px;
+    font-weight: 500;
+    color: #343539;
+}
+
+.edu-uni-description {
+    display: inline-flex;
+}
+
+.edu-description-course {
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+
+.uni-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    width: 50%;
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .resume-content {
+        display: block;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .left-section {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .middle-section {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .right-section {
+        width: 100%;
+        padding: 2%;
+    }
+
+}
