@@ -40,5 +40,11 @@
 @media only screen and (max-width: 992px) {
     .contact-card {
         width: 100%;
+        background: rgba(52, 53, 57, 0.5);
+    }
+
+    .contact-value {
+        text-align: center;
+        width: 100%;
     }
 }

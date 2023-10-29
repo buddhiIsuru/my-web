@@ -58,11 +58,13 @@
 
     .profile-image-section>img {
         width: 75%;
+        border-bottom: 4px solid transparent;
     }
 
     .profile-image-section {
         width: 100%;
         padding: 10%;
+        background-color: transparent;
     }
 
     .profile-detail-section {

@@ -1,0 +1,42 @@
+.container-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.ham-container {
+    /* display: inline-block; */
+    cursor: pointer;
+    z-index: 15632;
+    position: relative;
+    width: auto;
+    background: #ac560d;
+    padding: 10px;
+    margin: 2% 5%;
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 50%;
+    border: 2px solid #ac560d;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.change-bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change-bar2 {
+    opacity: 0;
+}
+
+.change-bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
