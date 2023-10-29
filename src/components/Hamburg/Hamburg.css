@@ -12,7 +12,7 @@
     position: relative;
     width: auto;
     background: #ac560d;
-    padding: 6px 10px;
+    padding: 6px;
     margin: 5% 5%;
     display: inline-block;
     justify-content: space-between;
@@ -24,14 +24,13 @@
     width: 20px;
     height: 3px;
     background-color: white;
-    margin: 6px 0;
+    margin: 3px 0;
     transition: 0.4s;
     border-radius: 5px;
 }
 
 .change-bar1 {
-    width: 35px;
-    transform: translate(0, 7px) rotate(-45deg);
+    transform: translate(0, 5px) rotate(-45deg);
 }
 
 .change-bar2 {
@@ -39,6 +38,5 @@
 }
 
 .change-bar3 {
-    width: 35px;
-    transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -7px) rotate(45deg);
 }
