@@ -37,7 +37,7 @@ const SocialMediaButtonList = ({ color }) => {
             <SocialMediaButton
                 icon={<i class="fa fa-whatsapp" aria-hidden="true"></i>}
                 textColor={color}
-                onClick={() => openSocialMediaInNewTab("//api.whatsapp.com/send/?phone=94715362857&text&type=phone_number&app_absent=0")}
+                onClick={() => openSocialMediaInNewTab("//api.whatsapp.com/send/?phone=94701767369&text&type=phone_number&app_absent=0")}
             />
         </ul>
     )
