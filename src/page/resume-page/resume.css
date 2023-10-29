@@ -1,5 +1,6 @@
 .resume-content {
     display: flex;
+    height: inherit;
 }
 
 .left-section {
