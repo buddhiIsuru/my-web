@@ -28,7 +28,7 @@ const AboutPage = () => {
                 <div className='profile-detail-section'>
                     <TitleComponent title={"About Me"} />
                     <ProfileDescription
-                        description={"Hello guys! I'm Buddhi Isuru. I am fascinated by how computer technology has brought changes to our lives that could never have been predicted; witnessing the expansion of computer science allowed me to consider studying software engineering from an early age, and my enthusiasm has perpetually developed since this time."} />
+                        description={"Hello guys! I'm Buddhi Isuru, a passionate individual captivated by the transformative impact of computer technology on our daily lives. The ever-evolving landscape of computer science has intrigued me from a young age, sparking a keen interest in software engineering. My journey has been marked by a continuous enthusiasm for exploring and contributing to the dynamic world of technology. Excited to delve deeper into the realm of software engineering, I'm driven by a relentless curiosity and a commitment to making a positive impact through innovation."} />
                     {/* <button className='download-cv-button'>Download CV</button> */}
                 </div>
             </div>
