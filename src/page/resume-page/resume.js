@@ -23,6 +23,11 @@ function MiddleSection() {
         <div className='middle-section'>
             <TitleComponent title={"Education"} />
             <ExpirienceCard
+                company={"BSc(Hons) Computing Science in Software Engineering"}
+                duration={"2024 Feb - 2025 Feb"}
+                description={"Kingston University(UK)"}
+            />
+                    <ExpirienceCard
                 company={"Diploma In Software Engineering "}
                 duration={"2017 Oct - 2019 Apr"}
                 description={"Institute Of Software Engineering (IJSE)"}
